@@ -15,7 +15,7 @@ name = []
 
 
 for p_name in p_con:
-    name.append(p_name.a.text)
+    name.append(p_name.text)
 
 for i in name:
     print(i + "\n")
